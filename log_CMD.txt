@@ -1,0 +1,250 @@
+
+(myvenv) C:\test\oscar\myvenv\Scripts>cd ../
+
+(myvenv) C:\test\oscar\myvenv>cd ../
+
+(myvenv) C:\test\oscar>python -m pip install --upgrade pip
+Collecting pip
+  Using cached https://files.pythonhosted.org/packages/5c/e0/be401c003291b56efc55aeba6a80ab790d3d4cece2778288d65323009420/pip-19.1.1-py2.py3-none-any.whl
+Installing collected packages: pip
+  Found existing installation: pip 10.0.1
+    Uninstalling pip-10.0.1:
+      Successfully uninstalled pip-10.0.1
+Successfully installed pip-19.1.1
+
+(myvenv) C:\test\oscar>pip list
+Package    Version
+---------- -------
+pip        19.1.1
+setuptools 39.0.1
+
+(myvenv) C:\test\oscar>pip install django==2.1.9
+Collecting django==2.1.9
+  Using cached https://files.pythonhosted.org/packages/bb/47/a4fdf24409656dc624a802571c3d6bb809e396ebbe6d668b16cb8ae431fa/Django-2.1.9-py3-none-any.whl
+Collecting pytz (from django==2.1.9)
+  Using cached https://files.pythonhosted.org/packages/3d/73/fe30c2daaaa0713420d0382b16fbb761409f532c56bdcc514bf7b6262bb6/pytz-2019.1-py2.py3-none-any.whl
+Installing collected packages: pytz, django
+Successfully installed django-2.1.9 pytz-2019.1
+
+(myvenv) C:\test\oscar>pip install django-oscar
+Collecting django-oscar
+  Using cached https://files.pythonhosted.org/packages/4d/55/8413954598ebbfbe5d90f95d024488adab19e2c2001e39a403c565294d5a/django_oscar-1.6.7-py2.py3-none-any.whl
+Collecting django-phonenumber-field<2.1,>=2.0 (from django-oscar)
+  Using cached https://files.pythonhosted.org/packages/f8/f0/dd808a95190880975772127accb6f09fe59b548c6e34adbe1cca11608b9d/django-phonenumber-field-2.0.1.tar.gz
+Collecting factory-boy<3.0,>=2.4.1 (from django-oscar)
+  Using cached https://files.pythonhosted.org/packages/63/c3/e4d5ed760f09f5dfb6ebbc44e22801a5fa9fcad9158f5ec59d8304092833/factory_boy-2.12.0-py2.py3-none-any.whl
+Collecting django-widget-tweaks>=1.4.1 (from django-oscar)
+  Using cached https://files.pythonhosted.org/packages/1c/11/a8d3a4d73a09973d62ce381fb73a926707cb1485aa29599f2afc04dee7b4/django_widget_tweaks-1.4.5-py2.py3-none-any.whl
+Collecting django-tables2<2.0,>=1.19 (from django-oscar)
+  Using cached https://files.pythonhosted.org/packages/35/4b/ed10f7a313704bb77e0bd87817c938ad79bedfe21529873157a149a0a418/django-tables2-1.21.2.tar.gz
+  WARNING: In the tar file C:\Users\和史\AppData\Local\Temp\pip-unpack-hyr83ri5\django-tables2-1.21.2.tar.gz the member django-tables2-1.21.2/docs/pages/CHANGELOG.md is invalid: unable to resolve link inside archive
+Collecting django-extra-views<0.12,>=0.11 (from django-oscar)
+  Using cached https://files.pythonhosted.org/packages/3a/f0/67148a26bac647c3642d9e17ebb0b817ffe3d6b8deb7def5c1473988ae17/django-extra-views-0.11.0.tar.gz
+Collecting sorl-thumbnail<12.5,>=12.4.1 (from django-oscar)
+  Using cached https://files.pythonhosted.org/packages/be/0e/4ba5b7226235d0a9eb847dfd03b8e0ad61dd101cbe1515975793277d8e59/sorl_thumbnail-12.4.1-py2.py3-none-any.whl
+Collecting mock<3.0,>=1.0.1 (from django-oscar)
+  Using cached https://files.pythonhosted.org/packages/e6/35/f187bdf23be87092bd0f1200d43d23076cee4d0dec109f195173fd3ebc79/mock-2.0.0-py2.py3-none-any.whl
+Collecting Babel<3.0,>=1.0 (from django-oscar)
+  Using cached https://files.pythonhosted.org/packages/2c/60/f2af68eb046c5de5b1fe6dd4743bf42c074f7141fe7b2737d3061533b093/Babel-2.7.0-py2.py3-none-any.whl
+Collecting purl>=0.7 (from django-oscar)
+  Using cached https://files.pythonhosted.org/packages/9e/3e/019857aadcb94822952f4d103d6772e2a61f31457c0777a9bb4266cdd667/purl-1.5-py2.py3-none-any.whl
+Collecting Unidecode<1.1,>=1.0 (from django-oscar)
+  Using cached https://files.pythonhosted.org/packages/31/39/53096f9217b057cb049fe872b7fc7ce799a1a89b76cf917d9639e7a558b5/Unidecode-1.0.23-py2.py3-none-any.whl
+Requirement already satisfied: django<2.2,>=1.11 in c:\test\oscar\myvenv\lib\site-packages (from django-oscar) (2.1.9)
+Collecting phonenumbers (from django-oscar)
+  Using cached https://files.pythonhosted.org/packages/34/3f/ca2193d6e93074b78cebdbd73c31815c82a50c8975d0517a7ff0b0337430/phonenumbers-8.10.14-py2.py3-none-any.whl
+Collecting django-treebeard>=4.3.0 (from django-oscar)
+  Using cached https://files.pythonhosted.org/packages/14/8a/d3d85018bb14cf951a41f362da1505e0523ff8b798844e270f030d4646ac/django-treebeard-4.3.tar.gz
+Collecting django-haystack<3.0.0,>=2.5.0 (from django-oscar)
+  Using cached https://files.pythonhosted.org/packages/69/43/3e247b7b2134b48e9a53fb387e191e5e05b5f38f2faf78ca892097c2b441/django-haystack-2.8.1.tar.gz
+Collecting pillow>=4.0 (from django-oscar)
+  Using cached https://files.pythonhosted.org/packages/40/f2/a424d4d5dd6aa8c26636969decbb3da1c01286d344e71429b1d648bccb64/Pillow-6.0.0-cp37-cp37m-win_amd64.whl
+Collecting Faker>=0.7.0 (from factory-boy<3.0,>=2.4.1->django-oscar)
+  Using cached https://files.pythonhosted.org/packages/52/1a/930431923062857520bae512101a648ef528cd327583fda38d9e76fab5ce/Faker-1.0.7-py2.py3-none-any.whl
+Collecting six>=1.5.2 (from django-extra-views<0.12,>=0.11->django-oscar)
+  Using cached https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock<3.0,>=1.0.1->django-oscar)
+  Downloading https://files.pythonhosted.org/packages/7a/db/6e2fcd67cb1c7c98f54f7f19e925f8d9b23cffb84dab45528a759215fca5/pbr-5.3.1-py2.py3-none-any.whl (108kB)
+     |????????????????????????????????| 112kB 142kB/s
+Requirement already satisfied: pytz>=2015.7 in c:\test\oscar\myvenv\lib\site-packages (from Babel<3.0,>=1.0->django-oscar) (2019.1)
+Collecting text-unidecode==1.2 (from Faker>=0.7.0->factory-boy<3.0,>=2.4.1->django-oscar)
+  Using cached https://files.pythonhosted.org/packages/79/42/d717cc2b4520fb09e45b344b1b0b4e81aa672001dd128c180fabc655c341/text_unidecode-1.2-py2.py3-none-any.whl
+Collecting python-dateutil>=2.4 (from Faker>=0.7.0->factory-boy<3.0,>=2.4.1->django-oscar)
+  Using cached https://files.pythonhosted.org/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl
+Installing collected packages: Babel, phonenumbers, django-phonenumber-field, six, text-unidecode, python-dateutil, Faker, factory-boy, django-widget-tweaks, django-tables2, django-extra-views, sorl-thumbnail, pbr, mock, purl, Unidecode, django-treebeard, django-haystack, pillow, django-oscar
+  Running setup.py install for django-phonenumber-field ... done
+  Running setup.py install for django-tables2 ... done
+
+(myvenv) C:\test\oscar>pip list
+Package                  Version
+------------------------ -------
+Babel                    2.7.0
+Django                   2.1.9
+django-phonenumber-field 2.0.1
+django-tables2           1.21.2
+django-widget-tweaks     1.4.5
+factory-boy              2.12.0
+Faker                    1.0.7
+phonenumbers             8.10.14
+pip                      19.1.1
+python-dateutil          2.8.0
+pytz                     2019.1
+setuptools               39.0.1
+six                      1.12.0
+text-unidecode           1.2
+
+(myvenv) C:\test\oscar>pip install haystack
+Collecting haystack
+  Downloading https://files.pythonhosted.org/packages/3a/4b/b31b92843123801604c496ed483cb8f3d9b998ee54d0233289a417a1e187/haystack-0.42-py2.py3-none-any.whl (179kB)
+     |????????????????????????????????| 184kB 312kB/s
+Collecting construct<2.8 (from haystack)
+  Downloading https://files.pythonhosted.org/packages/7f/2e/939111841b78ca556b84725827daefd69a50f39b0269341df0c8e58ac785/construct-2.5.3.tar.gz (688kB)
+     |????????????????????????????????| 696kB 2.2MB/s
+Collecting pefile (from haystack)
+  Downloading https://files.pythonhosted.org/packages/36/58/acf7f35859d541985f0a6ea3c34baaefbfaee23642cf11e85fe36453ae77/pefile-2019.4.18.tar.gz (62kB)
+     |????????????????????????????????| 71kB 657kB/s
+Collecting python-ptrace>=0.8.1 (from haystack)
+  Downloading https://files.pythonhosted.org/packages/ca/ab/f3d3c564359173acdbfc9e3e19905bf2c36e09af7fcc76d8550dc882583f/python_ptrace-0.9.3-py3-none-any.whl (88kB)
+     |????????????????????????????????| 92kB 1.5MB/s
+Requirement already satisfied: six in c:\test\oscar\myvenv\lib\site-packages (from construct<2.8->haystack) (1.12.0)
+Collecting future (from pefile->haystack)
+  Downloading https://files.pythonhosted.org/packages/90/52/e20466b85000a181e1e144fd8305caf2cf475e2f9674e797b222f8105f5f/future-0.17.1.tar.gz (829kB)
+     |????????????????????????????????| 829kB 3.3MB/s
+Installing collected packages: construct, future, pefile, python-ptrace, haystack
+  Running setup.py install for construct ... done
+  Running setup.py install for future ... done
+  Running setup.py install for pefile ... done
+Successfully installed construct-2.5.3 future-0.17.1 haystack-0.42 pefile-2019.4.18 python-ptrace-0.9.3
+
+(myvenv) C:\test\oscar>pip install django-treebeard
+Collecting django-treebeard
+  Using cached https://files.pythonhosted.org/packages/14/8a/d3d85018bb14cf951a41f362da1505e0523ff8b798844e270f030d4646ac/django-treebeard-4.3.tar.gz
+Requirement already satisfied: Django>=1.8 in c:\test\oscar\myvenv\lib\site-packages (from django-treebeard) (2.1.9)
+Requirement already satisfied: pytz in c:\test\oscar\myvenv\lib\site-packages (from Django>=1.8->django-treebeard) (2019.1)
+Installing collected packages: django-treebeard
+  Running setup.py install for django-treebeard ... done
+Successfully installed django-treebeard-4.3
+
+(myvenv) C:\test\oscar>pip install django-sorl-hacks
+Collecting django-sorl-hacks
+  Downloading https://files.pythonhosted.org/packages/94/00/0b79fa00dca97113f7b6bfb4be0d25aab192507f0650f9be2c6af3b28633/django-sorl-hacks-0.1.10.tar.gz
+Requirement already satisfied: django>=1.6 in c:\test\oscar\myvenv\lib\site-packages (from django-sorl-hacks) (2.1.9)
+Collecting sorl-thumbnail==11.12 (from django-sorl-hacks)
+  Downloading https://files.pythonhosted.org/packages/c2/6e/ba11fc69856d20f94ee637b5df0d1947d56d9904446e7364e2e39a9b9b0a/sorl-thumbnail-11.12.tar.gz (46kB)
+     |????????????????????????????????| 51kB 130kB/s
+Requirement already satisfied: pytz in c:\test\oscar\myvenv\lib\site-packages (from django>=1.6->django-sorl-hacks) (2019.1)
+Installing collected packages: sorl-thumbnail, django-sorl-hacks
+  Running setup.py install for sorl-thumbnail ... done
+  Running setup.py install for django-sorl-hacks ... done
+Successfully installed django-sorl-hacks-0.1.10 sorl-thumbnail-11.12
+
+(myvenv) C:\test\oscar>pip install sorl-thumbnail
+Requirement already satisfied: sorl-thumbnail in c:\test\oscar\myvenv\lib\site-packages (11.12)
+
+(myvenv) C:\test\oscar>pip install simplejson
+Collecting simplejson
+  Downloading https://files.pythonhosted.org/packages/e3/24/c35fb1c1c315fc0fffe61ea00d3f88e85469004713dab488dee4f35b0aff/simplejson-3.16.0.tar.gz (81kB)
+     |????????????????????????????????| 81kB 375kB/s
+Installing collected packages: simplejson
+  Running setup.py install for simplejson ... done
+Successfully installed simplejson-3.16.0
+
+(myvenv) C:\test\oscar>pip install Unidecode
+Collecting Unidecode
+  Using cached https://files.pythonhosted.org/packages/d0/42/d9edfed04228bacea2d824904cae367ee9efd05e6cce7ceaaedd0b0ad964/Unidecode-1.1.1-py2.py3-none-any.whl
+Installing collected packages: Unidecode
+Successfully installed Unidecode-1.1.1
+
+(myvenv) C:\test\oscar>pip uninstall haystack
+Uninstalling haystack-0.42:
+  Would remove:
+    c:\test\oscar\myvenv\lib\site-packages\haystack-0.42.dist-info\*
+    c:\test\oscar\myvenv\lib\site-packages\haystack\*
+    c:\test\oscar\myvenv\scripts\haystack-find-heap.exe
+    c:\test\oscar\myvenv\scripts\haystack-live-dump.exe
+    c:\test\oscar\myvenv\scripts\haystack-live-watch.exe
+    c:\test\oscar\myvenv\scripts\haystack-rekall-dump.exe
+    c:\test\oscar\myvenv\scripts\haystack-search.exe
+    c:\test\oscar\myvenv\scripts\haystack-show.exe
+    c:\test\oscar\myvenv\scripts\haystack-volatility-dump.exe
+Proceed (y/n)? y
+  Successfully uninstalled haystack-0.42
+
+(myvenv) C:\test\oscar>pip install django-haystack
+Collecting django-haystack
+  Using cached https://files.pythonhosted.org/packages/69/43/3e247b7b2134b48e9a53fb387e191e5e05b5f38f2faf78ca892097c2b441/django-haystack-2.8.1.tar.gz
+Requirement already satisfied: Django>=1.11 in c:\test\oscar\myvenv\lib\site-packages (from django-haystack) (2.1.9)
+Requirement already satisfied: pytz in c:\test\oscar\myvenv\lib\site-packages (from Django>=1.11->django-haystack) (2019.1)
+Installing collected packages: django-haystack
+  Running setup.py install for django-haystack ... done
+Successfully installed django-haystack-2.8.1
+
+(myvenv) C:\test\oscar>pip install purl
+Collecting purl
+  Using cached https://files.pythonhosted.org/packages/9e/3e/019857aadcb94822952f4d103d6772e2a61f31457c0777a9bb4266cdd667/purl-1.5-py2.py3-none-any.whl
+Requirement already satisfied: six in c:\test\oscar\myvenv\lib\site-packages (from purl) (1.12.0)
+Installing collected packages: purl
+Successfully installed purl-1.5
+
+(myvenv) C:\test\oscar>pip install django-extra-views
+Collecting django-extra-views
+  Downloading https://files.pythonhosted.org/packages/d0/e1/72b1fc26b9d53893130ac084e1b45ab627fafd0704d8d7d2ad551cc8296a/django-extra-views-0.12.0.tar.gz
+Requirement already satisfied: Django>=1.11 in c:\test\oscar\myvenv\lib\site-packages (from django-extra-views) (2.1.9)
+Requirement already satisfied: six>=1.5.2 in c:\test\oscar\myvenv\lib\site-packages (from django-extra-views) (1.12.0)
+Requirement already satisfied: pytz in c:\test\oscar\myvenv\lib\site-packages (from Django>=1.11->django-extra-views) (2019.1)
+Installing collected packages: django-extra-views
+  Running setup.py install for django-extra-views ... done
+Successfully installed django-extra-views-0.12.0
+
+(myvenv) C:\test\oscar>pip install Pillow
+Collecting Pillow
+  Using cached https://files.pythonhosted.org/packages/40/f2/a424d4d5dd6aa8c26636969decbb3da1c01286d344e71429b1d648bccb64/Pillow-6.0.0-cp37-cp37m-win_amd64.whl
+Installing collected packages: Pillow
+Successfully installed Pillow-6.0.0
+
+(myvenv) C:\test\oscar>pip install urllib2
+Collecting urllib2
+  ERROR: Could not find a version that satisfies the requirement urllib2 (from versions: none)
+ERROR: No matching distribution found for urllib2
+
+(myvenv) C:\test\oscar>dir
+ ドライブ C のボリューム ラベルがありません。
+ ボリューム シリアル番号は 68DA-28BB です
+
+ C:\test\oscar のディレクトリ
+
+2019/06/28  21:02    <DIR>          .
+2019/06/28  21:02    <DIR>          ..
+2019/06/28  20:39    <DIR>          .metadata
+2019/06/30  17:32    <DIR>          frobshop
+2019/06/28  21:19    <DIR>          myvenv
+2019/06/28  20:40    <DIR>          RemoteSystemsTempFiles
+               0 個のファイル                   0 バイト
+               6 個のディレクトリ   5,759,004,672 バイトの空き領域
+
+(myvenv) C:\test\oscar>pip freeze
+Babel==2.7.0
+construct==2.5.3
+Django==2.1.9
+django-extra-views==0.12.0
+django-haystack==2.8.1
+django-phonenumber-field==2.0.1
+django-sorl-hacks==0.1.10
+django-tables2==1.21.2
+django-treebeard==4.3
+django-widget-tweaks==1.4.5
+factory-boy==2.12.0
+Faker==1.0.7
+future==0.17.1
+pefile==2019.4.18
+phonenumbers==8.10.14
+Pillow==6.0.0
+purl==1.5
+python-dateutil==2.8.0
+python-ptrace==0.9.3
+pytz==2019.1
+simplejson==3.16.0
+six==1.12.0
+sorl-thumbnail==11.12
+text-unidecode==1.2
+Unidecode==1.1.1

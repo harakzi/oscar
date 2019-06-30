@@ -1,0 +1,6 @@
+MODULES_MANAGER_V2
+frobshop.__init__|C:\test\oscar\frobshop\frobshop\__init__.py
+frobshop.settings|C:\test\oscar\frobshop\frobshop\settings.py
+frobshop.urls|C:\test\oscar\frobshop\frobshop\urls.py
+frobshop.wsgi|C:\test\oscar\frobshop\frobshop\wsgi.py
+manage|C:\test\oscar\frobshop\manage.py

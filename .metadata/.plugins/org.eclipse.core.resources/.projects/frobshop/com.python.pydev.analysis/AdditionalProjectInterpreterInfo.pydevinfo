@@ -1,0 +1,43 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\test\oscar\.metadata\.plugins\org.eclipse.core.resources\.projects\frobshop\com.python.pydev.analysis\v2_indexcache
+frobshop.settings|1561725679983560000|C:\test\oscar\frobshop\frobshop\settings.py
+frobshop.wsgi|1561723353932288000|C:\test\oscar\frobshop\frobshop\wsgi.py
+frobshop.urls|1561726132133233000|C:\test\oscar\frobshop\frobshop\urls.py
+frobshop.__init__|1561723353936284000|C:\test\oscar\frobshop\frobshop\__init__.py
+manage|1561723353910829000|C:\test\oscar\frobshop\manage.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+2=frobshop.settings
+1=C:\test\oscar\frobshop\frobshop\settings.py
+4=frobshop.wsgi
+3=C:\test\oscar\frobshop\frobshop\wsgi.py
+6=frobshop.urls
+5=C:\test\oscar\frobshop\frobshop\urls.py
+-- END DICTIONARY
+-- START TREE 1
+19
+all|1|ALLOWED_HOSTS!1^29#1*19@
+app|1|application!3^16#1*35@
+aut|2|AUTH_PASSWORD_VALIDATORS!1^163#1*19@AUTHENTICATION_BACKENDS!1^102#1*19@
+bas|1|BASE_DIR!1^17#1*19@
+dat|1|DATABASES!1^144#1*19@
+deb|1|DEBUG!1^27#1*19@
+hay|1|HAYSTACK_CONNECTIONS!1^133#1*19@
+ins|1|INSTALLED_APPS!1^82#1*19@
+lan|1|LANGUAGE_CODE!1^169#1*19@
+mid|1|MIDDLEWARE!1^97#1*19@
+roo|1|ROOT_URLCONF!1^105#1*19@
+sec|1|SECRET_KEY!1^24#1*19@
+sit|1|SITE_ID!1^84#1*19@
+sta|1|STATIC_URL!1^183#1*19@
+tem|1|TEMPLATES!1^125#1*19@
+tim|1|TIME_ZONE!1^171#1*19@
+url|1|urlpatterns!5^10#1*51@
+use|3|USE_L10N!1^175#1*19@USE_I18N!1^173#1*19@USE_TZ!1^177#1*19@
+wsg|1|WSGI_APPLICATION!1^127#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

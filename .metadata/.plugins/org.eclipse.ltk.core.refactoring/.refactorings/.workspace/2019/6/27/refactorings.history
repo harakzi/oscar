@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="リソース &apos;frobshop/templates/oscar&apos; を削除" deleteContents="false" description="リソース &apos;frobshop/templates/oscar&apos; を削除" element1="/frobshop/templates/oscar" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1561883824449"/>&#x0A;<refactoring comment="リソース &apos;frobshop/templates/promotions&apos; を削除" deleteContents="false" description="リソース &apos;frobshop/templates/promotions&apos; を削除" element1="/frobshop/templates/promotions" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1561883829024"/>
+</session>
